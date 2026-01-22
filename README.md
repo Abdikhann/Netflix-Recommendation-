@@ -10,11 +10,8 @@ Python | Pandas | NumPy | scikit-surprise | Jupyter Notebook
 📊 What This Project Does
 
 Processes large-scale user–movie rating data
-
 Learns hidden user preferences
-
 Predicts ratings for unseen movies
-
 Generates personalized recommendations
 
 ▶️ How to Open the Project
@@ -24,17 +21,3 @@ Open Netflix_Recommendation_Project_by_Abdullah.ipynb and run cells sequentially
 
 The dataset is split into multiple text files due to size.
 Each file contains movie IDs followed by user ratings.
-
-The import process:
-
-Read files one by one to avoid memory overload
-
-Detect movie ID markers
-
-Assign each rating to its correct movie
-
-Merge all files into one structured dataset
-
-Use this final dataset for modeling
-
-This approach mirrors real-world large-data handling.
