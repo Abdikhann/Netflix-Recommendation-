@@ -1,2 +1,40 @@
-# Netflix-Recommendation-
-A Netflix-style recommendation system built from curiosity to code. Using 24M+ real movie ratings, this project learns user preferences through collaborative filtering and predicts what users are likely to watch next, showcasing how data and machine learning power personalized experiences.
+🎬 Netflix Recommendation System
+
+A Netflix-style recommendation system built using 24M+ real movie ratings.
+This project learns user preferences from past behavior and predicts what users are likely to watch next using collaborative filtering (SVD).
+
+🔧 Tech Stack
+
+Python | Pandas | NumPy | scikit-surprise | Jupyter Notebook
+
+📊 What This Project Does
+
+Processes large-scale user–movie rating data
+
+Learns hidden user preferences
+
+Predicts ratings for unseen movies
+
+Generates personalized recommendations
+
+▶️ How to Open the Project
+Open Netflix_Recommendation_Project_by_Abdullah.ipynb and run cells sequentially.
+
+📥 How File Import Works
+
+The dataset is split into multiple text files due to size.
+Each file contains movie IDs followed by user ratings.
+
+The import process:
+
+Read files one by one to avoid memory overload
+
+Detect movie ID markers
+
+Assign each rating to its correct movie
+
+Merge all files into one structured dataset
+
+Use this final dataset for modeling
+
+This approach mirrors real-world large-data handling.
