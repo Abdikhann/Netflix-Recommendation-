@@ -21,3 +21,4 @@ Open Netflix_Recommendation_Project_by_Abdullah.ipynb and run cells sequentially
 
 The dataset is split into multiple text files due to size.
 Each file contains movie IDs followed by user ratings.
+<img width="793" height="1111" alt="NFS" src="https://github.com/user-attachments/assets/f19efdce-fa16-40e1-a7e6-53b2f911e0fb" />
